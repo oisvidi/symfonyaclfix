@@ -1,0 +1,25 @@
+{
+    "name": "oisvidi/symfonyaclfix",
+    "type": "library",
+    "description": "Symfony Security Component - ACL (Access Control List) - UTF8MB4 fix",
+    "keywords": [],
+    "homepage": "https://vidi.no",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Potencier",
+            "email": "fabien@symfony.com"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "https://symfony.com/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/security-core": "~2.8|~3.0"
+    },
+    "autoload": {
+        "files": ["src/Schema.php"]
+    }
+}
